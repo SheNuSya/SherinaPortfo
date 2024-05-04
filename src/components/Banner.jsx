@@ -18,7 +18,7 @@ const Banner = () => {
             Welcome To <span className="text-sky-600">Sherina Portfolio</span>
           </h1>
           <p className="mb-10">
-            Hii.., I am Sherina, Now I am a Students and Web Developer
+            Hii.., I am Sherina, Now I am a Students and Newbie Web Developer
           </p>
           <Link
             to={"/About"}

@@ -19,16 +19,16 @@ const Project = () => {
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="700"
-          className="text-[40px] text-white font-semibold mb-20 leading-normal uppercase"
+          className="text-[40px] text-white font-semibold mb-20 uppercase"
         >
           My Projects
         </h1>
-        <div className="md:grid lg:grid-cols-4 md:grid-cols-2 md:gap-36 justify-between">
+        <div className="md:grid lg:grid-cols-3 md:grid-cols-2 md:gap-10 justify-center">
           <div
             data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="700"
-            className="justify-centre md:w-80 md:ml-20 mb-5 px-2 py-2 pb-5 border-2 border-sky-800 hover:bg-sky-950 rounded-3xl b_glow"
+            className="justify-center md:w-80 mb-5 px-2 py-2 pb-5 border-2 border-sky-800 hover:bg-sky-950 rounded-3xl b_glow"
           >
             <h2 className="text-[20px] flex justify-between mt-5 mx-5 font-semibold text-white ">
               All In One Application
@@ -57,7 +57,7 @@ const Project = () => {
             data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="700"
-            className="justify-centre md:w-80 md:ml-20 mb-5 p-2 border-2 border-sky-800 hover:bg-sky-950 rounded-3xl b_glow"
+            className="justify-centre md:w-80 mb-5 p-2 border-2 border-sky-800 hover:bg-sky-950 rounded-3xl b_glow"
           >
             <h2 className="text-[20px] flex justify-between mt-5 mx-5 font-semibold text-white ">
               Logistic Catalog Based Web Application
@@ -87,7 +87,7 @@ const Project = () => {
             data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="700"
-            className="justify-centre md:w-80 md:ml-20 mb-5 p-2 border-2 border-sky-800 hover:bg-sky-950 rounded-3xl b_glow"
+            className="justify-centre md:w-80 mb-5 p-2 border-2 border-sky-800 hover:bg-sky-950 rounded-3xl b_glow"
           >
             <h2 className="text-[20px] flex justify-between mt-5 mx-5 font-semibold text-white ">
               Final Project Information System Business Manajemen Department
