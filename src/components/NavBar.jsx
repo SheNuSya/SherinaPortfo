@@ -47,22 +47,38 @@ const NavBar = () => {
       <div className="text-3xl font-bold">SheNuSya</div>
       <nav className="lg:items-center lg:font-normal hidden lg:flex">
         <ul className="flex gap-5 text-[18px]">
-          <li className={`hover:text-cyan-600 transition border-b-2 border-slate-900 hover:border-cyan-600 cursor-pointer ${activePage === 'home' ? 'text-[#4792c5]' : 'dark:text-white'}`}>
+          <li
+            className={`hover:text-cyan-600 transition border-b-2 border-slate-900 hover:border-cyan-600 cursor-pointer ${
+              activePage === "home" ? "text-[#4792c5]" : "dark:text-white"
+            }`}
+          >
             <Link spy={true} smooth={true} to={"/"}>
               Home
             </Link>
           </li>
-          <li className={`hover:text-cyan-600 transition border-b-2 border-slate-900 hover:border-cyan-600 cursor-pointer ${activePage === 'About' ? 'text-[#4792c5]' : 'dark:text-white'}`}>
+          <li
+            className={`hover:text-cyan-600 transition border-b-2 border-slate-900 hover:border-cyan-600 cursor-pointer ${
+              activePage === "About" ? "text-[#4792c5]" : "dark:text-white"
+            }`}
+          >
             <Link spy={true} smooth={true} to={"/About"}>
               About
             </Link>
           </li>
-          <li className={`hover:text-cyan-600 transition border-b-2 border-slate-900 hover:border-cyan-600 cursor-pointer ${activePage === 'Project' ? 'text-[#4792c5]' : 'dark:text-white'}`}>
+          <li
+            className={`hover:text-cyan-600 transition border-b-2 border-slate-900 hover:border-cyan-600 cursor-pointer ${
+              activePage === "Project" ? "text-[#4792c5]" : "dark:text-white"
+            }`}
+          >
             <Link spy={true} smooth={true} to={"/Project"}>
               Project
             </Link>
           </li>
-          <li className={`hover:text-cyan-600 transition border-b-2 border-slate-900 hover:border-cyan-600 cursor-pointer ${activePage === 'Contact' ? 'text-[#4792c5]' : 'dark:text-white'}`}>
+          <li
+            className={`hover:text-cyan-600 transition border-b-2 border-slate-900 hover:border-cyan-600 cursor-pointer ${
+              activePage === "Contact" ? "text-[#4792c5]" : "dark:text-white"
+            }`}
+          >
             <Link spy={true} smooth={true} to={"/Contact"}>
               Contact
             </Link>

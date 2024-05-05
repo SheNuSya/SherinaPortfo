@@ -6,15 +6,21 @@ import "aos/dist/aos.css";
 
 const Banner = () => {
   AOS.init({
-    easing: 'ease-out-quart',
+    easing: "ease-out-quart",
     delay: 0,
-    duration: 750
-  })
+    duration: 750,
+  });
   return (
     <section className="lg:px-56 px-10 lg:py-0 py-20 text-between gap-5 lg-text-start flex lg:flex-row justify-between lg:gap-28 items-center">
       <div className="h-full lg:py-40 flex justify-between flex-col-reverse lg:items-start items-center text-white lg:grid lg:grid-cols-2 lg:gap-5">
-        <div data-aos="fade-up-right" className="col-start-1 col-end-1 md:w-[450px]">
-          <h1 style={{fontFamily:"cursive"}} className="text-[40px] font-semibold mb-8 leading-normal uppercase">
+        <div
+          data-aos="fade-up-right"
+          className="col-start-1 col-end-1 md:w-[450px]"
+        >
+          <h1
+            style={{ fontFamily: "cursive" }}
+            className="text-[40px] font-semibold mb-8 leading-normal uppercase"
+          >
             Welcome To <span className="text-sky-600">Sherina Portfolio</span>
           </h1>
           <p className="mb-10">
@@ -27,7 +33,10 @@ const Banner = () => {
             About Me
           </Link>
         </div>
-        <div data-aos="fade-up" className="col-start-2 col-end-2 lg:ml-40 m-auto ">
+        <div
+          data-aos="fade-up"
+          className="col-start-2 col-end-2 lg:ml-40 m-auto "
+        >
           <img
             src={img}
             width={290}
